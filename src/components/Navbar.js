@@ -1,9 +1,13 @@
 import { Button } from "@mui/material";
+import Logo from "../assets/Logo.png";
 
 export default function Navbar() {
   return (
     <div style={styles.nav}>
-      <div style={styles.logo}>FlowAI</div>
+      <div style={styles.logoContainer}>
+        <img src={Logo} alt="FlowAI Logo" style={styles.logoImg} />
+        <span style={styles.logoText}>FlowAI</span>
+      </div>
 
       <div style={styles.links}>
         <span>Features</span>
@@ -41,4 +45,20 @@ const styles = {
   btn: {
     background: "#6366f1",
   },
+  logoContainer: {
+  display: "flex",
+  alignItems: "center",
+  gap: "10px",
+},
+
+logoImg: {
+  width: "32px",
+  height: "32px",
+  filter: "drop-shadow(0 0 8px rgba(99,102,241,0.6))",
+},
+
+logoText: {
+  fontWeight: "600",
+  fontSize: "18px",
+},
 };

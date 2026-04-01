@@ -44,3 +44,18 @@ button:hover {
   transform: translateY(-6px);
   transition: 0.3s;
 }
+
+footer span:hover {
+  color: #6366f1;
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: #6366f1;
+  transform: scale(1.2);
+}
