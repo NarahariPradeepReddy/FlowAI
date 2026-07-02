@@ -192,7 +192,6 @@ vercel
 Senior Frontend Developer | React.js Developer | UI Enthusiast
 
 - GitHub: https://github.com/NarahariPradeepReddy
-- LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN-PROFILE
 - Portfolio: https://flow-ai-xi-five.vercel.app/
 
 ---
